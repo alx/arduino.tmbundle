@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Arduino</string>
+	<key>ordering</key>
+	<array/>
+	<key>uuid</key>
+	<string>C3297BCA-0279-47EF-9CA2-A8BCF6436795</string>
+</dict>
+</plist>
