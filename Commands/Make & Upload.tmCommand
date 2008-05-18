@@ -17,6 +17,7 @@ FileNoExtension = FileBaseName.sub(/#{FileExtension}$/, "")
 
 Makefile = File.join(ENV['TM_BUNDLE_SUPPORT'], "arduino-0011-core/Makefile")
 
+puts "make -f '#{Makefile}' TARGET=#{FileNoExtension}"
 `make -f '#{Makefile}' TARGET=#{FileNoExtension}`
 `make -f '#{Makefile}' TARGET=#{FileNoExtension} upload`
 
@@ -26,11 +27,11 @@ puts "Successfully compiled and uploaded #{FileNoExtension}" unless $CHILD_STATU
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>#$@A</string>
+	<string>@A</string>
 	<key>name</key>
 	<string>Make &amp; Upload</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>showAsHTML</string>
 	<key>uuid</key>
 	<string>B8367CFF-EF74-48A0-9D73-1C46BD047DDA</string>
 </dict>
